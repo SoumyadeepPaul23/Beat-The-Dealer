@@ -22,7 +22,7 @@ function refresh(){
    const header = document.querySelector("h1");
 		setTimeout(() => {header.textContent = "Refresh Me"
         document.querySelector(".img1").classList.remove("rotate"),
-        document.querySelector(".img2").classList.remove("rotate") }, 2000);
+        document.querySelector(".img2").classList.remove("rotate") }, 500);
 
   
 }
