@@ -1,8 +1,8 @@
 function refresh(){
     let p1 = Math.ceil(Math.random() * 5);
     let p2 = Math.ceil(Math.random() * 5);
-    let s1 = "images/dice"+p1+".png";
-    let s2 = "images/dice"+p2+".png";
+    let s1 = "dice"+p1+".png";
+    let s2 = "dice"+p2+".png";
     document.querySelector(".img1").classList.add("rotate");
     document.querySelector(".img2").classList.add("rotate");
 
